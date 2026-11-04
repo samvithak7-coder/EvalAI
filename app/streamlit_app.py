@@ -1,6 +1,6 @@
 import json
 import streamlit as st
-from app.evaluator import evaluate_response
+from evaluator import evaluate_response
 
 st.set_page_config(
     page_title="EvalAI | AI Quality Evaluation",
